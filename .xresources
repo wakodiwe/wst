@@ -1,0 +1,36 @@
+st.font: Monospace-11;
+
+  st.termname: st-256color
+
+  st.borderpx: 2
+
+  st.disablebold: 0
+  st.disableitalic: 1
+  st.disableroman: 0
+
+  st.cwscale: 1.0
+  st.chscale: 1.0
+
+  st.cursorshape: 2
+
+  ! one half dark
+  *.foreground: #abb2bf
+  *.background: #282c34
+  *.cursorColor: #abb2bf
+
+  *color0: #282c34
+  *color1: #353b45
+  *color2: #3e4451
+  *color3: #545862
+  *color4: #565c64
+  *color5: #abb2bf
+  *color6: #b6bdca
+  *color7: #c8ccd4
+  *color8: #e06c75
+  *color9: #d19a66
+  *color10: #e5c07b
+  *color11: #98c379
+  *color12: #56b6c2
+  *color13: #61afef
+  *color14: #c678dd
+  *color15: #be5046
