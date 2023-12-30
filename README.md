@@ -144,9 +144,9 @@ Same as described under "Installation" but prefix "install" with "un".
 ## Installation as void linux package
 
 If you are using void linux, you can download the template from my
-[void-packages repository](https://github.com/wakodiwe/void-packages/tree/master/srcpkg).
+[void-packages repository](https://github.com/wakodiwe/void-packages)
 
-Download the raw template:
+Download the raw template file from srcpkgs/wst:
 
     # curl -o template https://raw.githubusercontent.com/wakodiwe/void-packages/master/srcpkgs/wst/template
 
