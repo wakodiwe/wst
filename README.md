@@ -4,8 +4,8 @@
 st is a simple terminal emulator for X which sucks less.
 
 wst basically is the same although it sucks a little more less. But don't
-worry: It sucks enough less to be suckless. And it is carefully patched with
-some usefull functions and options.
+worry: It sucks enough less to [suckless](https://st.suckless.org). And it
+is carefully patched with some usefull functions and options.
 
 ## Patches
 
@@ -78,7 +78,6 @@ mentioned command:
 | `ctrl` + `shift` + `C` | Copy                       |
 | `ctrl` + `shift` + `V` | Paste                      |
 
-
 ## Sample .xresources
 
     st.font: Monospace-11;
@@ -141,6 +140,28 @@ If your want to install it locally:
 ## Uninstallation
 
 Same as described under "Installation" but prefix "install" with "un".
+
+## Installation as void linux package
+
+If you are using void linux, you can download the template from my
+[void-packages repository](https://github.com/wakodiwe/void-packages/tree/master/srcpkg).
+
+Download the raw template:
+
+    # curl -o template https://raw.githubusercontent.com/wakodiwe/void-packages/master/srcpkgs/wst/template
+
+And save it in ... void-packages/srcpkgs/wst. If you have a oneline solution
+to make this possible, let me know.
+
+Next:
+
+    # cd ... void-packages/srcpkgs
+    # ./xbps-src pkg wst
+    # sudo xbps-install -S wst
+
+## Credits
+
+Yes! Thank you! I love you all!
 
 ## ...
 
